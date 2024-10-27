@@ -1,0 +1,109 @@
+body{
+    background-color: #725cd3;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    color: #725cd3;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid rgba(182, 174, 222, 0.357);
+    width: 40vw;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    padding: 32px;
+}   
+
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.form input{
+    width: 60%;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    direction: none;
+    
+
+}
+
+.form button{
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #725cd3;
+    color: white;
+    margin-left: 8px;
+    width: 20%;
+    cursor: pointer;
+
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 12px;
+    
+    
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 8px 24px;
+    background-color: #e0dded;
+    border-radius: 8px;
+}
+
+.task span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #8879ca;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+    opacity: 0.7;
+    transition: 0.3s;
+    color: black;
+}
+.task span:hover{
+    opacity: 1;
+    background-color: #725cd3;
+    color: white    ;
+}
+
+.task li{
+    list-style: none;
+}
